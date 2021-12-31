@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    font-family: arial,sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0px 0px 0px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+    color: black;
+}
+nav img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#googleApps{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    opacity: 70%;
+    padding: 5px;
+    margin: 0px 10px 0px 10px;
+}
+#googleApps:hover{
+    background-color: rgb(133, 122, 122);
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.searchBox{
+    width: 80%;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+.searchBox input{
+    width: 90%;
+    border: none;
+    height: 100%;
+}
+.searchBox input:focus{
+    outline: none;
+}
+.searchBox input::placeholder{
+    font-size: 16px;
+}
+.popularSiteBox{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+}
+.dataBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2 0 15%;
+    padding: 10px;
+}
+.dataBox img{
+    width: 30px;
+}
+.searchBox i{
+    padding: 15px;
+}
