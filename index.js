@@ -20,11 +20,20 @@ const Nav = (props)=>{
     </nav>
   );
 }
+Nav.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string,
+};
 const Google = (props)=>{
   return(
     <img src={props.src} alt={props.alt} width={props.width} />
   );
 }
+Google.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string,
+  width: PropTypes.number,
+};
 const Input = (props)=>{
   return(
     <div className="searchBox">
@@ -34,6 +43,9 @@ const Input = (props)=>{
     </div>
   );
 }
+Input.propTypes = {
+  placeholder: PropTypes.string.isRequired,
+};
 const Popularsite = ()=>{
   return(
     <div className="popularSiteBox">

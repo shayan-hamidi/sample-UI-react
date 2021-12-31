@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
 nav{
     font-family: arial,sans-serif;
     width: 100%;
@@ -48,7 +51,7 @@ nav img{
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
-    margin: 10px;
+    margin: 20px 10px 10px 10px;
     border: none;
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
 }
@@ -76,10 +79,18 @@ nav img{
     justify-content: center;
     align-items: center;
     flex: 2 0 15%;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
+}
+.dataBox:hover{
+    background-color: rgb(171, 173, 175);
+    cursor: pointer;
+}
+.dataBox span{
+    font-size: 12px;
 }
 .dataBox img{
     width: 30px;
+    padding-bottom: 15px;
 }
 .searchBox i{
     padding: 15px;
